@@ -66,3 +66,13 @@ To change the size of the grid, modify the `grid_size` number in the last line o
 if __name__ == "__main__":
     # Change the number 4 to 6 for a 6x6 grid, for example
     game = MemoryGame(grid_size=6)
+```
+
+### Add more symbols
+```python
+class MemoryGame:
+    def __init__(self, grid_size=4):
+        # ...
+        self.CARD_SYMBOLS = ["🃏", "⭐", "🌙", "☀️", "❤️", "💎", "🚀", "🍀", "🍎", "🎁", "🎈", "🔑", "🎉", "💡", "🎸", "🍕"]
+        # ...
+```
